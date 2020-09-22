@@ -78,7 +78,7 @@ class Admin
      * @param  mixed $cookies
      * @return void
      */
-    public  function call($path, $data = array(), $post = array(), $cookies = array())
+    public  function call($path, $data = [], $post = [], $cookies = [])
     {
 
         $key = $this->generateRandStr(8);
@@ -152,12 +152,12 @@ class Admin
         $post['addvps'] = 1;
         $post['node_select'] = 1;
         $ret = $this->call($path, '', $post, $cookies);
-        return array(
+        return [
             'title' => $ret['title'],
-            'error' => @empty($ret['error']) ? array() : $ret['error'],
+            'error' => @empty($ret['error']) ? [] : $ret['error'],
             'vs_info' => $ret['newvs'],
             'globals' => $ret['globals'],
             'done' => $ret['done']
-        );
+        ];
     }
 }

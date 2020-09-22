@@ -22,7 +22,6 @@ $post['hostname'] = 'test12345.com';
 $post['rootpass'] = 'test123';
 $post['stid'] = 3;
 
-
 $output = $admin->createVps($post);
 
 print_r(json_encode($output));
