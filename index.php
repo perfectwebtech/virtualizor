@@ -9,7 +9,6 @@ $ip = '94.102.51.104';
 
 $admin = new Admin($ip, $key, $pass);
 
-$post = array();
 $post['serid'] = 0;
 $post['virt'] = 'kvm';
 $post['uid'] = 0;
