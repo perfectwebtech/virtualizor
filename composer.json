@@ -1,0 +1,15 @@
+{
+    "name": "bot/bot",
+    "description": "bot",
+    "license": "MIT",
+    "authors": [{
+        "name": "Hen-Dricks",
+        "email": "62672799+Hen-Dricks@users.noreply.github.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Virtualizor\\": "app/"
+        }
+    },
+    "require": {}
+}
