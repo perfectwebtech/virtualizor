@@ -5,9 +5,9 @@ namespace Virtualizor;
 class Admin
 {
 
-    private $key =  'i4jufxc9s987jyuatqjh1cs1t5u3xewx';
-    private $pass = 'efuiunkf32r9znb1om3qz0f8or5giivz';
-    private $ip = '94.102.51.104';
+    private $key =  'key';
+    private $pass = 'pass';
+    private $ip = 'ip';
     private $port = 4085;
     private $protocol = 'https';
 

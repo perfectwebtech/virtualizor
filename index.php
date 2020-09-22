@@ -3,9 +3,9 @@ require('vendor/autoload.php');
 
 use Virtualizor\Admin;
 
-$key =  'i4jufxc9s987jyuatqjh1cs1t5u3xewx';
-$pass = 'efuiunkf32r9znb1om3qz0f8or5giivz';
-$ip = '94.102.51.104';
+$key =  'key';
+$pass = 'pass';
+$ip = 'ip';
 
 $admin = new Admin($ip, $key, $pass);
 
